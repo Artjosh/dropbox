@@ -1,0 +1,162 @@
+10/05/2025 11:35:59 [ERROR] Credenciais do Dropbox não configuradas. Verifique as variáveis de ambiente no arquivo .env
+10/05/2025 11:36:39 [INFO] Inicializando Dropbox com access token direto (modo legado)
+10/05/2025 11:36:39 [ERROR] Erro ao inicializar Dropbox: 'Dropbox' object has no attribute 'get_source_folder_path'
+10/05/2025 11:37:49 [INFO] Inicializando Dropbox com access token direto (modo legado)
+10/05/2025 11:37:49 [ERROR] Erro ao inicializar Dropbox: 'Dropbox' object has no attribute 'get_source_folder_path'
+10/05/2025 11:39:51 [INFO] Inicializando Dropbox com access token direto (modo legado)
+10/05/2025 11:39:52 [ERROR] Erro ao inicializar Dropbox: AuthError('1c4edbfcf2f8483ea20addc31d09e61b', AuthError('expired_access_token', None))
+10/05/2025 11:40:16 [INFO] Inicializando Dropbox com access token direto (modo legado)
+10/05/2025 11:40:17 [ERROR] Erro ao inicializar Dropbox: AuthError('d81cc64e78e5470e8efafe8847866c69', AuthError('expired_access_token', None))
+10/05/2025 11:40:17 [ERROR] Falha ao inicializar os componentes necessários. Verifique os logs para mais detalhes.
+10/05/2025 11:52:19 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 11:52:20 [INFO] Dropbox authentication successful
+10/05/2025 11:52:21 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 11:52:22 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 11:52:23 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 11:52:23 [INFO] Dropbox inicializado com sucesso
+10/05/2025 11:52:23 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 11:52:50 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 11:52:51 [INFO] Dropbox authentication successful
+10/05/2025 11:52:52 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 11:52:53 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 11:52:54 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 11:52:54 [INFO] Dropbox inicializado com sucesso
+10/05/2025 11:52:54 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 11:53:44 [INFO] Inicializando Dropbox com access token direto (modo legado)
+10/05/2025 11:53:45 [ERROR] Erro ao inicializar Dropbox: AuthError('b9cebee3e8be4db7bbf6d77fce605036', AuthError('expired_access_token', None))
+10/05/2025 11:53:45 [ERROR] Falha ao inicializar os componentes necessários. Verifique os logs para mais detalhes.
+10/05/2025 11:54:21 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 11:54:22 [INFO] Dropbox authentication successful
+10/05/2025 11:54:23 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 11:54:23 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 11:54:47 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 11:54:49 [INFO] Dropbox authentication successful
+10/05/2025 11:54:50 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 11:54:50 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 11:54:52 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 11:54:52 [INFO] Dropbox inicializado com sucesso
+10/05/2025 11:54:52 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 11:55:59 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 11:56:00 [INFO] Dropbox authentication successful
+10/05/2025 11:56:01 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 11:56:02 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 11:56:03 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 11:56:03 [INFO] Dropbox inicializado com sucesso
+10/05/2025 11:56:03 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 12:01:46 [INFO] INÍCIO PROCESSAMENTO
+10/05/2025 12:01:48 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:01:49 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:01:49 [INFO] Buscando arquivos PDF em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:01:50 [INFO] Total de arquivos PDF encontrados: 696
+10/05/2025 12:01:50 [ERROR] Erro ao processar PDFs: bad character range .-\s at position 9
+10/05/2025 12:14:53 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 12:14:55 [INFO] Dropbox authentication successful
+10/05/2025 12:14:55 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:14:56 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:14:57 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:14:57 [INFO] Dropbox inicializado com sucesso
+10/05/2025 12:14:57 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 12:14:57 [INFO] INÍCIO PROCESSAMENTO
+10/05/2025 12:14:58 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:14:59 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:14:59 [INFO] Buscando arquivos PDF em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:15:00 [INFO] Total de arquivos PDF encontrados: 696
+10/05/2025 12:15:00 [INFO] Total de CPFs identificados: 695
+10/05/2025 12:15:00 [INFO] Downloading file: /aaaa/COMPROVANTE DE PAGAMENTO/00013550071 COMPROVANTE DE PAG.pdf
+10/05/2025 12:15:02 [INFO] Downloading file: /aaaa/COMPROVANTE DE PAGAMENTO/00013550071 COMPROVANTE DE PAG(1).pdf
+10/05/2025 12:15:03 [INFO] Unindo 2 arquivos PDF
+10/05/2025 12:15:03 [INFO] Uploading file to: /aaaa/USO_DO_ROBO/00013550071_merged.pdf
+10/05/2025 12:15:04 [INFO] Moving file from /aaaa/COMPROVANTE DE PAGAMENTO/00013550071 COMPROVANTE DE PAG.pdf to /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS/00013550071 COMPROVANTE DE PAG.pdf
+10/05/2025 12:15:05 [INFO] Moving file from /aaaa/COMPROVANTE DE PAGAMENTO/00013550071 COMPROVANTE DE PAG(1).pdf to /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS/00013550071 COMPROVANTE DE PAG(1).pdf
+10/05/2025 12:15:07 [INFO] Processamento concluído: 2 CPFs processados, 694 ignorados. Total de arquivos: 696
+10/05/2025 12:15:07 [INFO] CPFs processados: 00013550071
+10/05/2025 12:15:07 [INFO] FIM PROCESSAMENTO
+10/05/2025 12:19:54 [ERROR] DROPBOX_API_REFRESH_TOKEN não configurado. Execute o script get_refresh_token.py para obter um token
+10/05/2025 12:19:54 [ERROR] Falha ao inicializar os componentes necessários. Verifique os logs para mais detalhes.
+10/05/2025 12:22:09 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 12:22:10 [INFO] Dropbox authentication successful
+10/05/2025 12:22:10 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:22:11 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:22:12 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:22:12 [INFO] Dropbox inicializado com sucesso
+10/05/2025 12:22:12 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 12:23:11 [INFO] INÍCIO PROCESSAMENTO
+10/05/2025 12:23:11 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:23:12 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:23:12 [INFO] Buscando arquivos PDF em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:23:14 [INFO] Total de arquivos PDF encontrados: 694
+10/05/2025 12:23:14 [INFO] Total de CPFs identificados: 694
+10/05/2025 12:23:14 [INFO] Processamento concluído: 0 CPFs processados, 694 ignorados. Total de arquivos: 694
+10/05/2025 12:23:14 [INFO] FIM PROCESSAMENTO
+10/05/2025 12:24:25 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 12:24:26 [INFO] Dropbox authentication successful
+10/05/2025 12:24:27 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:24:28 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:24:29 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:24:29 [INFO] Dropbox inicializado com sucesso
+10/05/2025 12:24:29 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 12:24:45 [INFO] INÍCIO PROCESSAMENTO
+10/05/2025 12:24:46 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:24:48 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:24:48 [INFO] Buscando arquivos PDF em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:24:49 [INFO] Total de arquivos PDF encontrados: 696
+10/05/2025 12:24:49 [INFO] Total de CPFs identificados: 695
+10/05/2025 12:24:49 [INFO] Downloading file: /aaaa/COMPROVANTE DE PAGAMENTO/00013550071 COMPROVANTE DE PAG.pdf
+10/05/2025 12:24:51 [INFO] Downloading file: /aaaa/COMPROVANTE DE PAGAMENTO/00013550071 COMPROVANTE DE PAG(1).pdf
+10/05/2025 12:24:51 [INFO] Unindo 2 arquivos PDF
+10/05/2025 12:24:51 [INFO] Uploading file to: /aaaa/USO_DO_ROBO/00013550071_merged.pdf
+10/05/2025 12:24:52 [INFO] Moving file from /aaaa/COMPROVANTE DE PAGAMENTO/00013550071 COMPROVANTE DE PAG.pdf to /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS/00013550071 COMPROVANTE DE PAG.pdf
+10/05/2025 12:24:54 [INFO] Moving file from /aaaa/COMPROVANTE DE PAGAMENTO/00013550071 COMPROVANTE DE PAG(1).pdf to /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS/00013550071 COMPROVANTE DE PAG(1).pdf
+10/05/2025 12:24:55 [INFO] Processamento concluído: 2 CPFs processados, 694 ignorados. Total de arquivos: 696
+10/05/2025 12:24:55 [INFO] CPFs processados: 00013550071
+10/05/2025 12:24:55 [INFO] FIM PROCESSAMENTO
+10/05/2025 12:27:55 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 12:27:56 [INFO] Dropbox authentication successful
+10/05/2025 12:27:57 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:27:58 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:27:58 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:27:58 [INFO] Dropbox inicializado com sucesso
+10/05/2025 12:27:58 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 12:28:16 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 12:28:17 [INFO] Dropbox authentication successful
+10/05/2025 12:28:17 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:28:18 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:28:19 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:28:19 [INFO] Dropbox inicializado com sucesso
+10/05/2025 12:28:19 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 12:28:32 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 12:28:33 [INFO] Dropbox authentication successful
+10/05/2025 12:28:34 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:28:35 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:28:36 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:28:36 [INFO] Dropbox inicializado com sucesso
+10/05/2025 12:28:36 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 12:29:06 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 12:29:07 [INFO] Dropbox authentication successful
+10/05/2025 12:29:08 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:29:15 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:29:16 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:29:16 [INFO] Dropbox inicializado com sucesso
+10/05/2025 12:29:16 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 12:29:46 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 12:29:47 [INFO] Dropbox authentication successful
+10/05/2025 12:29:48 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:29:49 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:29:50 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:29:50 [INFO] Dropbox inicializado com sucesso
+10/05/2025 12:29:50 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 12:34:29 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 12:34:30 [INFO] Dropbox authentication successful
+10/05/2025 12:34:31 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:34:32 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:34:33 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:34:33 [INFO] Dropbox inicializado com sucesso
+10/05/2025 12:34:33 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 12:59:47 [INFO] Inicializando Dropbox com refresh token
+10/05/2025 12:59:48 [INFO] Dropbox authentication successful
+10/05/2025 12:59:49 [INFO] Pasta de origem encontrada em: /aaaa/COMPROVANTE DE PAGAMENTO
+10/05/2025 12:59:49 [INFO] Pasta de saída encontrada em: /aaaa/USO_DO_ROBO
+10/05/2025 12:59:50 [INFO] Pasta de processados encontrada em: /aaaa/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+10/05/2025 12:59:50 [INFO] Dropbox inicializado com sucesso
+10/05/2025 12:59:50 [INFO] Processador de PDF inicializado com sucesso
+10/05/2025 13:18:26 [INFO] Iniciando servidor Waitress na porta 5000
