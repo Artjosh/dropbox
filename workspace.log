@@ -935,3 +935,170 @@
 11/05/2025 14:59:53 [INFO] Total de CPFs identificados: 694
 11/05/2025 14:59:53 [INFO] Processamento concluído: 0 CPFs processados, 694 ignorados. Total de arquivos: 694
 11/05/2025 14:59:53 [INFO] FIM PROCESSAMENTO
+11/05/2025 20:35:26 [INFO] Inicializando componentes...
+11/05/2025 20:35:26 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 20:35:27 [ERROR] Dropbox authentication failed: AuthError('f2ac421d9e274f05bf017e0455adc3d0', AuthError('invalid_access_token', None))
+11/05/2025 20:35:27 [ERROR] Erro ao inicializar Dropbox: AuthError('f2ac421d9e274f05bf017e0455adc3d0', AuthError('invalid_access_token', None))
+11/05/2025 20:35:27 [ERROR] FALHA na inicialização! Abortando.
+11/05/2025 20:36:26 [INFO] Inicializando componentes...
+11/05/2025 20:36:26 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 20:36:27 [INFO] Dropbox authentication successful
+11/05/2025 20:36:28 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 20:36:28 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 20:36:29 [INFO] Criando pasta de processados em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 20:36:30 [INFO] Pasta criada com sucesso: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 20:36:30 [INFO] Dropbox inicializado com sucesso
+11/05/2025 20:36:30 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 20:36:30 [INFO] Inicialização concluída com sucesso!
+11/05/2025 20:36:30 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 20:39:36 [INFO] Inicializando componentes...
+11/05/2025 20:39:36 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 20:39:37 [INFO] Dropbox authentication successful
+11/05/2025 20:39:37 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 20:39:38 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 20:39:39 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 20:39:39 [INFO] Dropbox inicializado com sucesso
+11/05/2025 20:39:39 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 20:39:39 [INFO] Inicialização concluída com sucesso!
+11/05/2025 20:39:39 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 20:46:00 [INFO] Inicializando componentes...
+11/05/2025 20:46:00 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 20:46:01 [INFO] Dropbox authentication successful
+11/05/2025 20:46:02 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 20:46:03 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 20:46:03 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 20:46:03 [INFO] Dropbox inicializado com sucesso
+11/05/2025 20:46:03 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 20:46:03 [INFO] Inicialização concluída com sucesso!
+11/05/2025 20:46:03 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 20:49:27 [INFO] Inicializando componentes...
+11/05/2025 20:49:27 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 20:49:28 [INFO] Dropbox authentication successful
+11/05/2025 20:49:29 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 20:49:30 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 20:49:31 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 20:49:31 [INFO] Dropbox inicializado com sucesso
+11/05/2025 20:49:31 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 20:49:31 [INFO] Inicialização concluída com sucesso!
+11/05/2025 20:49:31 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 20:54:57 [INFO] Inicializando componentes...
+11/05/2025 20:54:57 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 20:54:58 [INFO] Dropbox authentication successful
+11/05/2025 20:54:59 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 20:54:59 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 20:55:00 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 20:55:00 [INFO] Dropbox inicializado com sucesso
+11/05/2025 20:55:00 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 20:55:00 [INFO] Inicialização concluída com sucesso!
+11/05/2025 20:55:00 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 20:57:07 [INFO] Inicializando componentes...
+11/05/2025 20:57:07 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 20:57:08 [INFO] Dropbox authentication successful
+11/05/2025 20:57:09 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 20:57:09 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 20:57:10 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 20:57:10 [INFO] Dropbox inicializado com sucesso
+11/05/2025 20:57:10 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 20:57:10 [INFO] Inicialização concluída com sucesso!
+11/05/2025 20:57:10 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 21:01:45 [INFO] Inicializando componentes...
+11/05/2025 21:01:45 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 21:01:46 [INFO] Dropbox authentication successful
+11/05/2025 21:01:47 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 21:01:48 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 21:01:48 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 21:01:48 [INFO] Dropbox inicializado com sucesso
+11/05/2025 21:01:48 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 21:01:48 [INFO] Inicialização concluída com sucesso!
+11/05/2025 21:01:48 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 21:04:36 [INFO] Inicializando componentes...
+11/05/2025 21:04:36 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 21:04:37 [INFO] Dropbox authentication successful
+11/05/2025 21:04:38 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 21:04:39 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 21:04:40 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 21:04:40 [INFO] Dropbox inicializado com sucesso
+11/05/2025 21:04:40 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 21:04:40 [INFO] Inicialização concluída com sucesso!
+11/05/2025 21:04:40 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 21:11:50 [INFO] Inicializando componentes...
+11/05/2025 21:11:50 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 21:11:51 [INFO] Dropbox authentication successful
+11/05/2025 21:11:52 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 21:11:52 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 21:11:53 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 21:11:53 [INFO] Dropbox inicializado com sucesso
+11/05/2025 21:11:53 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 21:11:53 [INFO] Inicialização concluída com sucesso!
+11/05/2025 21:11:53 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 21:12:07 [INFO] INÍCIO PROCESSAMENTO
+11/05/2025 21:12:07 [ERROR] Erro ao processar PDFs: 'NoneType' object has no attribute 'process_pdfs_from_dropbox'
+11/05/2025 21:14:08 [INFO] Inicializando componentes...
+11/05/2025 21:14:08 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 21:14:09 [INFO] Dropbox authentication successful
+11/05/2025 21:14:10 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 21:14:10 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 21:14:11 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 21:14:11 [INFO] Dropbox inicializado com sucesso
+11/05/2025 21:14:11 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 21:14:11 [INFO] Inicialização concluída com sucesso!
+11/05/2025 21:14:11 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 21:15:05 [INFO] Inicializando componentes...
+11/05/2025 21:15:05 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 21:15:06 [INFO] Dropbox authentication successful
+11/05/2025 21:15:07 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 21:15:09 [INFO] Inicializando componentes...
+11/05/2025 21:15:09 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 21:15:10 [INFO] Dropbox authentication successful
+11/05/2025 21:15:11 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 21:15:11 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 21:15:12 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 21:15:12 [INFO] Dropbox inicializado com sucesso
+11/05/2025 21:15:12 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 21:15:12 [INFO] Inicialização concluída com sucesso!
+11/05/2025 21:15:12 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 21:17:12 [INFO] Inicializando componentes...
+11/05/2025 21:17:12 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 21:17:13 [INFO] Dropbox authentication successful
+11/05/2025 21:17:17 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 21:17:18 [INFO] Dropbox authentication successful
+11/05/2025 21:17:19 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 21:17:20 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 21:17:21 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 21:17:21 [INFO] Dropbox inicializado com sucesso
+11/05/2025 21:17:21 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 21:17:29 [INFO] INÍCIO PROCESSAMENTO
+11/05/2025 21:17:30 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 21:17:30 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 21:17:30 [INFO] Buscando arquivos PDF em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 21:17:32 [INFO] Total de arquivos PDF encontrados: 694
+11/05/2025 21:17:32 [INFO] Total de CPFs identificados: 694
+11/05/2025 21:17:32 [INFO] Processamento concluído: 0 CPFs processados, 694 ignorados. Total de arquivos: 694
+11/05/2025 21:17:32 [INFO] FIM PROCESSAMENTO
+11/05/2025 21:23:33 [INFO] Inicializando componentes...
+11/05/2025 21:23:33 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 21:23:34 [INFO] Dropbox authentication successful
+11/05/2025 21:23:34 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 21:23:35 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 21:23:36 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 21:23:36 [INFO] Dropbox inicializado com sucesso
+11/05/2025 21:23:36 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 21:23:36 [INFO] Inicialização concluída com sucesso!
+11/05/2025 21:23:36 [INFO] Iniciando Gunicorn na porta 5000
+11/05/2025 21:23:41 [INFO] Inicializando Dropbox no worker...
+11/05/2025 21:23:41 [INFO] Inicializando Dropbox com refresh token
+11/05/2025 21:23:41 [INFO] Dropbox authentication successful
+11/05/2025 21:23:42 [INFO] Pasta de origem encontrada em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 21:23:43 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 21:23:44 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 21:23:44 [INFO] Dropbox inicializado com sucesso
+11/05/2025 21:23:44 [INFO] Inicializando PDF Processor no worker...
+11/05/2025 21:23:44 [INFO] Processador de PDF inicializado com sucesso
+11/05/2025 21:23:44 [INFO] INÍCIO PROCESSAMENTO
+11/05/2025 21:23:44 [INFO] Pasta de saída encontrada em: /SERTRAS/USO_DO_ROBO
+11/05/2025 21:23:45 [INFO] Pasta de processados encontrada em: /SERTRAS/COMPROVANTES_DE_PAGAMENTO_PROCESSADOS
+11/05/2025 21:23:45 [INFO] Buscando arquivos PDF em: /SERTRAS/COMPROVANTE DE PAGAMENTO
+11/05/2025 21:23:47 [INFO] Total de arquivos PDF encontrados: 694
+11/05/2025 21:23:47 [INFO] Total de CPFs identificados: 694
+11/05/2025 21:23:47 [INFO] Processamento concluído: 0 CPFs processados, 694 ignorados. Total de arquivos: 694
+11/05/2025 21:23:47 [INFO] FIM PROCESSAMENTO

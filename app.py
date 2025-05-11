@@ -259,17 +259,22 @@ def download_logs():
 
 @app.route("/process-pdfs", methods=["POST"])
 def process_pdfs():
-    """
-    Endpoint to process PDFs with the same CPF in their filenames.
-    Requires a valid API key for authentication.
-    """
+    global dropbox_handler, pdf_processor
+    
     # Verificar API Key
     if not check_api_key():
         return jsonify({'error': 'Unauthorized'}), 401
     
-    # Verificar se o processador está inicializado
-    if not dropbox_handler or not pdf_processor:
-        return jsonify({'error': 'Sistema não inicializado corretamente. Reinicie o servidor.'}), 500
+    # Inicialização lazy
+    if not dropbox_handler:
+        logger.info("Inicializando Dropbox no worker...")
+        if not init_dropbox():
+            return jsonify({'error': 'Não foi possível inicializar o Dropbox'}), 500
+    
+    if not pdf_processor:
+        logger.info("Inicializando PDF Processor no worker...")
+        if not init_pdf_processor():
+            return jsonify({'error': 'Não foi possível inicializar o PDF Processor'}), 500
     
     try:
         logger.info("INÍCIO PROCESSAMENTO")

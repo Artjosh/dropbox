@@ -32,7 +32,7 @@ if __name__ == '__main__':
             logger.info(f"Iniciando servidor Waitress na porta {PORT}")
             print(f"Servidor rodando em http://localhost:{PORT}")
             print("Pressione Ctrl+C para encerrar.")
-            serve(app, host='0.0.0.0', port=PORT, threads=8)
+            serve(app, host='0.0.0.0', port=PORT, threads=1)
         except ImportError:
             print("Erro: Waitress não está instalado. Instale com 'pip install waitress'")
             sys.exit(1)
