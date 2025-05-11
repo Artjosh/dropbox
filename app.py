@@ -25,6 +25,8 @@ import threading
 import time
 import os.path
 from flask_cors import CORS
+import gzip
+import io
 
 # Variável global para controlar a inicialização do Dropbox
 _dropbox_initialized = False
@@ -189,58 +191,6 @@ def home():
     </html>
     """
 
-@app.route('/status')
-def status():
-    """
-    Endpoint para fornecer o conteúdo do arquivo de log.
-    Suporta paginação e opção para retornar apenas as últimas linhas.
-    
-    Parâmetros de query:
-    - tail: Se presente, retorna apenas as últimas N linhas (padrão 100)
-    - start: Linha inicial para paginação (padrão 0)
-    - length: Número de linhas a retornar (padrão 1000)
-    """
-    if not check_api_key():
-        return jsonify({'error': 'Unauthorized'}), 401
-    
-    if not os.path.exists(LOG_FILE_PATH):
-        return jsonify({
-            'error': 'Log file not found',
-            'file_path': LOG_FILE_PATH
-        }), 404
-    
-    # Verificar se o cliente quer apenas as últimas linhas
-    if 'tail' in request.args:
-        try:
-            lines_count = int(request.args.get('tail', 100))
-        except ValueError:
-            lines_count = 100
-        
-        lines = tail_file(LOG_FILE_PATH, lines_count)
-        return jsonify({
-            'log_lines': lines,
-            'count': len(lines),
-            'tail': True
-        })
-    
-    # Caso contrário, usar paginação
-    try:
-        start = int(request.args.get('start', 0))
-        length = int(request.args.get('length', 1000))
-    except ValueError:
-        start = 0
-        length = 1000
-    
-    result = read_file_chunk(LOG_FILE_PATH, start, length)
-    
-    return jsonify({
-        'log_lines': result['lines'],
-        'total_lines': result['total_lines'],
-        'start': result['start'],
-        'end': result['end'],
-        'has_more': result['end'] < result['total_lines']
-    })
-
 @app.route('/stream-logs')
 def stream_logs():
     """
@@ -347,12 +297,25 @@ def process_pdfs():
         logger.error(f"Erro ao processar PDFs: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
-@app.route('/health', methods=['GET'])
-def health_check():
-    """
-    Endpoint de verificação de saúde da API.
-    """
-    return jsonify({'status': 'ok'}), 200
+@app.after_request
+def compress_response(response):
+    """Comprime respostas JSON automaticamente com gzip."""
+    # Comprimir apenas se o conteúdo for JSON e for grande o suficiente
+    if (response.headers.get('Content-Type') == 'application/json' and
+            len(response.data) > 1024):  # Comprimir se maior que 1KB
+        
+        # Criar buffer para compressão
+        gzip_buffer = io.BytesIO()
+        with gzip.GzipFile(mode='wb', fileobj=gzip_buffer) as f:
+            f.write(response.data)
+        
+        # Substituir dados pela versão comprimida
+        response.data = gzip_buffer.getvalue()
+        response.headers['Content-Encoding'] = 'gzip'
+        response.headers['Content-Length'] = str(len(response.data))
+        response.headers['Vary'] = 'Accept-Encoding'
+    
+    return response
 
 # Inicializar serviços ao iniciar o aplicativo
 if __name__ == '__main__':
